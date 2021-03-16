@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,900;1,800&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <h1>3D Model </h1>
+            <p>This web page uses the Google poly and Model viewer library. 3D model downloaded from Googel poly. Model viewer library used to show load and display the 3D object. Auto rotate was enabled. Using Camera controller option we can interact with the poly by our mouse. I intenetinally turned off camera controller. There is some delay on initial loading.AR is enabled but due to limited browser support it not working on some mobile browsers.</p>
+        </div>
+        <div class="item2">
+            <model-viewer src="./assets/model.gltf" auto-rotate ar ios-src="./assets/model.usdz"></model-viewer>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
